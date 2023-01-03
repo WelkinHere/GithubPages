@@ -1,8 +1,8 @@
 # WelkinHere \ GithubPages
 
-This repository is for my [Github Pages](welkinhere.github.io).
+This repository is for my [Github Pages](https://welkinhere.github.io/).
 
-这个目录用来存放我的[Github Pages](welkinhere.github.io)。
+这个目录用来存放我的[Github Pages](https://welkinhere.github.io/)。
 
 So there just some boring and lonely files here.
 
