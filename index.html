@@ -17,15 +17,15 @@
 
 <body class="mdui-theme-primary-indigo">
     <!-- AppBar --->
-    <header class="appbar mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-appbar mdui-appbar-fixed">
         <div class="mdui-toolbar mdui-color-theme">
             <!-- 这个是菜单按钮，想让这东西能够展开菜单栏 --->
-            <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#sidebar'}">
+            <button class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#sidebar'}">
                 <i class="mdui-icon material-icons">menu</i>
-            </a>
+            </button>
 
             <!-- 页面标题 --->
-            <a href="https://welkinhere.github.com/" class="mdui-typo-title">Home</a>
+            <p class="mdui-typo-title">Home</p>
 
             <!-- 占位符，用来让 Icon 右侧对齐 --->
             <div class="mdui-toolbar-spacer"></div>
@@ -38,10 +38,10 @@
                 </svg>
             </a>
         </div>
-    </header>
+    </div>
 
     <div id="sidebar" class="mdui-drawer">
-        <div id="content">
+        <div id="content" class="mdui-list">
             <a href="https://welkinhere.github.io/" class="mdui-list-item mdui-ripple mdui-list-item-active">
                 <i class="mdui-list-item-icon mdui-icon material-icons">
                     home
@@ -51,6 +51,7 @@
                 </div>
             </a>
         </div>
+        <div class="mdui-divider"></div>
         <div id="copyright" class="mdui-list-item mdui-ripple">
             <p>© WelkinHere</p>
             <p>
