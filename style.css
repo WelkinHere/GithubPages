@@ -1,4 +1,5 @@
-/*  CSS by welkin
+/*  
+ *  CSS by welkin
  *  Website: https://welkinhere.github.io/
  *
  *  Theme Color 1: #2caffe
@@ -42,6 +43,26 @@ body {
     margin: 0px;
     border: 0px;
     padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    padding-bottom: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: #2cafff;
+    border-bottom-width: 4px;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+p#image-info {
+    color: darkgrey;
+    font-size: 0.8em;
+    align-self: center;
+    margin: 0px;
+    padding-bottom: 12px;
 }
 
 
@@ -126,6 +147,10 @@ div#content {
     border-radius: 8px;
 }
 
+p.content {
+    margin: 0px;
+}
+
 div#content h1#post-title {
     font-size: 2.6em;
     font-weight: bold;
@@ -135,6 +160,17 @@ div#content h1#post-title {
     border-bottom-width: 5px;
     margin-top: 0px;
     margin-bottom: 9px;
+}
+
+div#content h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 6px;
+    border-bottom-style: solid;
+    border-bottom-color: #2cafff;
+    border-bottom-width: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 div#content p#post-info {
@@ -199,7 +235,7 @@ div#footer {
     color: darkgray;
     margin-top: 3%;
     border: 0px;
-    padding-bottom: 7%;
+    padding-bottom: 3%;
     height: max-content;
     text-align: center;
 }
