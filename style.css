@@ -1,6 +1,16 @@
+/*  CSS by welkin
+ *  Website: https://welkinhere.github.io/
+ *
+ *  Theme Color: #2caffe
+ *  
+ */
+
+
+/* 超链接自定义色彩 */
+
 a:link {
     color: #2caffe;
-    text-decoration: dotted;
+    text-decoration: none;
 }
 
 a:visited {
@@ -20,6 +30,9 @@ a:active {
     text-decoration: underline;
 }
 
+
+/* 全局定义 */
+
 body {
     display: grid;
     background-color: #fefefa;
@@ -27,6 +40,9 @@ body {
     border: 0px;
     padding: 0px;
 }
+
+
+/* 标题栏 */
 
 div#header {
     display: flex;
@@ -46,9 +62,15 @@ div#nav-top {
     right: 7%;
 }
 
+
+/* 页面主体 */
+
 div#container {
     display: flex;
 }
+
+
+/* 左侧的导航栏 */
 
 div#nav-left {
     display: flex;
@@ -65,6 +87,9 @@ div#nav-left {
     border-radius: 5px;
 }
 
+
+/* 中间的内容 */
+
 div#content {
     display: flex;
     flex-direction: column;
@@ -77,6 +102,9 @@ div#content {
     height: max-content;
     border-radius: 5px;
 }
+
+
+/* 右侧的侧边信息栏 */
 
 div#sidebar {
     display: flex;
@@ -92,6 +120,9 @@ div#sidebar {
     height: max-content;
     border-radius: 5px;
 }
+
+
+/* 页脚 */
 
 div#footer {
     background-color: grey;
