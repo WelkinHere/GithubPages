@@ -11,6 +11,8 @@
 a:link {
     color: #2caffe;
     text-decoration: none;
+    background-color: #2caffe11;
+    border-radius: 4px;
 }
 
 a:visited {
@@ -35,7 +37,7 @@ a:active {
 
 body {
     display: grid;
-    background-color: #fefefa;
+    background-color: #fcfdf8;
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -73,6 +75,8 @@ div#container {
 
 div#nav-left {
     display: flex;
+    position: sticky;
+    top: 1%;
     flex-direction: column;
     background-color: #2caffe33;
     color: #2caffe;
@@ -83,7 +87,26 @@ div#nav-left {
     padding: 1%;
     width: 12%;
     height: max-content;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+div#nav-left h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #2cafff;
+    border-bottom-width: 3px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+div#nav-left ul {
+    font-size: 0.8em;
+    font-weight: thin;
+    margin: 0px;
+    padding-left: 15px;
+    padding-bottom: 3px;
 }
 
 
@@ -99,7 +122,25 @@ div#content {
     padding: 2%;
     width: 60%;
     height: max-content;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+div#content h1#post-title {
+    font-size: 2.6em;
+    font-weight: bold;
+    padding-bottom: 9px;
+    border-bottom-style: solid;
+    border-bottom-color: #2cafff;
+    border-bottom-width: 5px;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+div#content p#post-info {
+    font-size: 0.8em;
+    font-weight: thin;
+    margin: 0px;
+    padding-bottom: 27px;
 }
 
 
@@ -107,6 +148,8 @@ div#content {
 
 div#sidebar {
     display: flex;
+    position: sticky;
+    top: 1%;
     flex-direction: column;
     background-color: #2caffe33;
     color: #2caffe;
@@ -117,7 +160,34 @@ div#sidebar {
     padding: 1%;
     width: 12%;
     height: max-content;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+div#sidebar h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #2cafff;
+    border-bottom-width: 3px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+div#recent-post {
+    margin-top: 10%
+}
+
+div#sidebar p {
+    font-size: 0.8em;
+    font-weight: thin;
+    margin: 0px;
+}
+
+div#sidebar nl {
+    font-size: 0.8em;
+    font-weight: thin;
+    margin: 0px;
 }
 
 
