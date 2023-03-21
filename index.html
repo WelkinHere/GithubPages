@@ -8,40 +8,85 @@
 
     <!-- meta 用于定义网页的元数据 -->
     <meta charset="utf-8">
-    <meta name="keywords" content="blog, homepages, 个人主页">
+    <meta name="keywords" content="blog">
     <meta name="author" content="welkin">
+
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
+    <!-- div 用于定义一个区域，可以用于分组，也可以用于布局 -->
 
-    <!-- h1 用于说明一级标题 -->
-    <h1>welcome... i guess?</h1>
+    <!-- 这里希望做一个顶部的那个导航栏 -->
+    <div id="header">
+        <div id="site-name">
+            <h1 style="margin-top: 20px; margin-bottom: 0px;">WelkinHere</h1>
+            <p style="font-size: small; margin-top: 0px; margin-bottom: 20px;">Just a place store some random thing.</p>
+        </div>
+        <div id="nav-top">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
 
-    <!-- img 用于显示图片（这个标签没有闭合标签） -->
-    <img src="./Resources/github_avatar.jfif" alt="Github Avatar">
+    <div id="container">
+        <!-- 这里希望做一个左边的导航栏 -->
+        <div id="nav-left">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
 
-    <!-- p 用于表示段落 -->
-    <p>Hey, welkin here.</p>
-    <p>As you can see, this whole website is under construction now.</p>
-    <p>I'm still learning how to work together with  HTML and CSS, I wish we can work together soon.</p>
+        <!-- 这里希望做一个中间的内容区域 -->
+        <div id="content">
+            <!-- h1 用于说明一级标题 -->
+            <h1>welcome... i guess?</h1>
 
-    <!-- h2 用于表明二级标题（以此类推到h6） -->
-    <h2>you wanna knew something about me?</h2>
+            <!-- img 用于显示图片（这个标签没有闭合标签） -->
+            <img src="./Resources/github_avatar.jfif" alt="Github Avatar">
 
-    <p>hmmmm. I have a few social media.</p>
+            <!-- p 用于表示段落 -->
+            <p>Hey, welkin here.</p>
+            <p>As you can see, this whole website is under construction now.</p>
+            <p>I'm still learning how to work together with HTML and CSS, I wish we can work together soon.</p>
 
-    <!-- 在段落中混合添加其他标签的时候记得把段落文字加上英文双引号 -->
-    <p>
-        <a href="https://nostr.band/npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g" target="_blank" rel="noopener noreferrer"> npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g</a>
- is my nostr public key and 
-        <a href="mailto:here.is.welkin@proton.me" target="_blank" rel="noopener noreferrer">here.is.welkin@proton.me</a>
- is my email.
-        <del>but I'm lazy to check the mailbox and I may change my mail this year.</del>
-    </p>
+            <!-- h2 用于表明二级标题（以此类推到h6） -->
+            <h2>you wanna knew something about me?</h2>
+
+            <p>hmmmm. I have a few social media.</p>
+
+            <!-- 在段落中混合添加其他标签的时候直接加进去就行了 -->
+            <p>
+                <a href="https://nostr.band/npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g/" target="_blank" rel="noopener noreferrer"> npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g</a> is my nostr public key and
+                <a href="mailto:here.is.welkin@proton.me" target="_blank" rel="noopener noreferrer">here.is.welkin@proton.me</a> is my email.
+                <del>but I'm lazy to check the mailbox and I may change my mail this year.</del>
+            </p>
+        </div>
+
+        <!-- 这里希望做一个右边的文章内容-->
+        <div id="sidebar">
+            <div id="post-info">
+                <h2>Post Info</h2>
+                <p>Author: welkin</p>
+                <p>Post Date: 2023-03-20</p>
+                <p>Updated: 2023-03-21</p>
+            </div>
+            <div id="recent-post">
+                <h2>Recent Posts</h2>
+                <ul>
+                    <li><a href="https://www.github.com/WelkinHere/welkinhere.github.io/" target="_blank" rel="noopener noreferrer">welcome... i guess?</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <div id="footer">
-        <p style="text-align:center; clear:both; color:#cccccc">© welkin (2022-2023)</p>
+        <p id="copyright">© welkin (2022-2023)</p>
     </div>
 
 </body>

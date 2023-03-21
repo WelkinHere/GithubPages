@@ -1,0 +1,104 @@
+a:link {
+    color: #2caffe;
+    text-decoration: dotted;
+}
+
+a:visited {
+    color: #acaffe;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0accff;
+    text-decoration: underline;
+    background-color: #2caffe33;
+    border-radius: 4px;
+}
+
+a:active {
+    color: #2caffe66;
+    text-decoration: underline;
+}
+
+body {
+    display: grid;
+    background-color: #fefefa;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+div#header {
+    display: flex;
+    background-color: #2caffe33;
+    color: #2caffe;
+    margin: 0px;
+    border: 0px;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 100%;
+    height: min-content;
+}
+
+div#nav-top {
+    align-self: center;
+    position: absolute;
+    right: 7%;
+}
+
+div#container {
+    display: flex;
+}
+
+div#nav-left {
+    display: flex;
+    flex-direction: column;
+    background-color: #2caffe33;
+    color: #2caffe;
+    margin-top: 25px;
+    margin-left: 7%;
+    margin-right: 1%;
+    border: 0px;
+    padding: 1%;
+    width: 12%;
+    height: max-content;
+    border-radius: 5px;
+}
+
+div#content {
+    display: flex;
+    flex-direction: column;
+    background-color: #2caffe33;
+    color: #2caffe;
+    margin-top: 25px;
+    border: 0px;
+    padding: 2%;
+    width: 60%;
+    height: max-content;
+    border-radius: 5px;
+}
+
+div#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #2caffe33;
+    color: #2caffe;
+    margin-top: 25px;
+    margin-left: 1%;
+    margin-right: 7%;
+    border: 0px;
+    padding: 1%;
+    width: 12%;
+    height: max-content;
+    border-radius: 5px;
+}
+
+div#footer {
+    background-color: grey;
+    color: darkgray;
+    margin-top: 30px;
+    border: 0px;
+    padding-bottom: 50px;
+    height: max-content;
+    text-align: center;
+}
