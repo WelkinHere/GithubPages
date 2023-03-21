@@ -1,8 +1,9 @@
 /*  CSS by welkin
  *  Website: https://welkinhere.github.io/
  *
- *  Theme Color: #2caffe
- *  
+ *  Theme Color 1: #2caffe
+ *  Theme Color 2: #0accff
+ *  Theme Color 3: #acaffe
  */
 
 
@@ -196,9 +197,9 @@ div#sidebar nl {
 div#footer {
     background-color: grey;
     color: darkgray;
-    margin-top: 30px;
+    margin-top: 3%;
     border: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 7%;
     height: max-content;
     text-align: center;
 }
