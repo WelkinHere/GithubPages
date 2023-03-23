@@ -40,6 +40,7 @@ a:active {
 body {
     display: grid;
     background-color: #fcfdf8;
+    background-image: url("./Resources/osu-bg.png");
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -231,7 +232,7 @@ div#sidebar nl {
 /* 页脚 */
 
 div#footer {
-    background-color: grey;
+    background-color: #2caffe33;
     color: darkgray;
     margin-top: 3%;
     border: 0px;
