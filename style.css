@@ -206,8 +206,6 @@ div#sidebar {
 }
 
 div#sidebar div {
-    position: sticky;
-    top: 25px;
     margin-bottom: 15%;
     padding: 9%;
     background-color: #2caffe33;
@@ -229,19 +227,29 @@ div#sidebar h2 {
 }
 
 div#sidebar div#recent-page {
-    top: 200px;
+    position: sticky;
+    top: 25px;
     margin-top: 15%
 }
 
 div#sidebar div#back-to-top {
-    top: 85%;
+    position: sticky;
+    top: 75%;
     margin-top: 250%;
     padding: 10px;
+    background-color: #2caffe00;
     width: max-content;
 }
 
 div#sidebar div#back-to-top a {
-    padding: 12px;
+    align-self: center;
+    font-size: 2em;
+    background-color: #2caffe33;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 div#sidebar p {
