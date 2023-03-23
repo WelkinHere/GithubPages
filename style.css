@@ -13,25 +13,24 @@
 a:link {
     color: #2caffe;
     text-decoration: none;
-    background-color: #2caffe11;
-    border-radius: 4px;
 }
 
 a:visited {
-    color: #acaffe;
+    color: #acaffe99;
     text-decoration: none;
 }
 
 a:hover {
     color: #0accff;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #2caffe33;
     border-radius: 4px;
 }
 
 a:active {
     color: #2caffe66;
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: #0accff33;
 }
 
 
@@ -84,6 +83,19 @@ div#nav-top {
     align-self: center;
     position: absolute;
     right: 7%;
+    border-bottom-style: solid;
+    border-bottom-color: #2cafff;
+    border-bottom-width: 2px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+div#nav-top a {
+    margin-left: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 
@@ -99,7 +111,7 @@ div#container {
 div#nav-left {
     display: flex;
     position: sticky;
-    top: 1%;
+    top: 25px;
     flex-direction: column;
     background-color: #2caffe33;
     color: #2caffe;
@@ -117,9 +129,9 @@ div#nav-left h2 {
     font-size: 1.2em;
     font-weight: bold;
     padding-bottom: 3px;
-    border-bottom-style: solid;
+    border-bottom-style: dashed;
     border-bottom-color: #2cafff;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
     margin-top: 0px;
     margin-bottom: 3px;
 }
@@ -185,35 +197,51 @@ div#content p#post-info {
 /* 右侧的侧边信息栏 */
 
 div#sidebar {
-    display: flex;
-    position: sticky;
-    top: 1%;
-    flex-direction: column;
-    background-color: #2caffe33;
-    color: #2caffe;
     margin-top: 25px;
     margin-left: 1%;
-    margin-right: 7%;
+    margin-right: 9%;
     border: 0px;
-    padding: 1%;
+    padding: 0%;
     width: 12%;
-    height: max-content;
+}
+
+div#sidebar div {
+    position: sticky;
+    top: 25px;
+    margin-bottom: 15%;
+    padding: 9%;
+    background-color: #2caffe33;
+    color: #2caffe;
     border-radius: 8px;
+    width: 100%;
+    height: max-content;
 }
 
 div#sidebar h2 {
     font-size: 1.2em;
     font-weight: bold;
     padding-bottom: 3px;
-    border-bottom-style: solid;
+    border-bottom-style: dashed;
     border-bottom-color: #2cafff;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
     margin-top: 0px;
     margin-bottom: 3px;
 }
 
-div#recent-post {
-    margin-top: 10%
+div#sidebar div#recent-page {
+    top: 200px;
+    margin-top: 15%
+}
+
+div#sidebar div#back-to-top {
+    top: 85%;
+    margin-top: 250%;
+    padding: 10px;
+    width: max-content;
+}
+
+div#sidebar div#back-to-top a {
+    padding: 12px;
 }
 
 div#sidebar p {
@@ -222,7 +250,7 @@ div#sidebar p {
     margin: 0px;
 }
 
-div#sidebar nl {
+div#sidebar a {
     font-size: 0.8em;
     font-weight: thin;
     margin: 0px;
@@ -236,7 +264,6 @@ div#footer {
     color: darkgray;
     margin-top: 3%;
     border: 0px;
-    padding-bottom: 3%;
     height: max-content;
     text-align: center;
 }
